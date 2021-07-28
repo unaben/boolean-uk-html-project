@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body class="">
+<div class="main-container center responsive-grid">    
+    <header class="header">
+        <nav class="box three-column-grid__auto"> 
+            <div class="logo-container two-column-grid">   
+                <div class="box"><img class="logo-img" src="./img/the-hague-metro-logo.png" alt="logo-image"></div>
+                <div class="box"><strong><h1>Hot Wheels</h1></strong></div>
+            </div>    
+            <div>
+                <ul class="list eight-column-grid">            
+                    <li><a href="">Used cars</a></li>
+                    <li><a href="">New cars</a></li>
+                    <li><a href="">Sell your car</a></li>
+                    <li><a href="">Value your car</a></li>
+                    <li><a href="">Car reviews</a></li>
+                    <li><a href="">Car leasing</a></li>
+                    <li><a href="">Electric cars</a></li>                
+                    <li><a href="">Finance</a></li>
+                </ul>
+            </div>   
+            <div class="box four-column-grid__contract-center">          
+                    <div class="box"></div>
+                    <div class="homepage-icons two-column-grid__auto">            
+                    <div class="box icons">
+                        <div class="box"><img src="./img/heart.png" alt="heart-icon"></div>
+                        <div><a href="">Saved</a></div>  
+                    </div>
+                    <div class="box icons">
+                        <div class="box"><img src="./img/man.png" alt="user-icon"></div>
+                        <div><a href="">Sign-in</a></div>
+                    </div>  
+                    </div>
+                    <div></div>
+            </div>                           
+            </nav>         
+    </header>
+    <aside class="left-menu">
+        <div class="box Search-items">
+            <h2 class="homepage-description">Find your perfect car</h2>
+            <form class="box homepage-form">
+    <div class="box two-column-grid__auto">
+        <div class="box home-select">                               
+                <input class="homepage-select-options border" type="text" name="postcode" id="postcode" placeholder="Postcode" required>
+        </div>
+        <div>
+            <select class="homepage-select-options border" name="Distance" id="Distance">
+                    <option value="National">National</option>
+                    <option value="within 1 mile">1 Mile</option>
+                    <option value="within 5 mile">5 Miles</option>
+                    <option value="within 10 mile">10 Miles</option>
+                    <option value="within 15 mile">15 Miles</option>
+                    <option value="within 20 mile">20 Miles</option>
+            </select>
+        </div>
+    </div>
+        <div class="two-column-grid__auto">
+            <div>
+                <select class="homepage-select-options border" name="make" id="make" required>
+                    <option value="">Make</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Nissan">Nissan</option>
+                    <option value="Porsche">Porsche</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Vauxhall">Vauxhall</option>
+                    <option value="Volkswagen">Volkswagen</option>
+                    <option value="Volvo">Volvo</option>
+                </select>
+            </div>
+            <div>
+                <select class="homepage-select-options border" name="model" id="model">
+                    <option value="">Model</option>
+                    <option value="BMW">X5</option>
+                    <option value="Honda">Civic</option>
+                    <option value="Nissan">Pathfinder</option>
+                    <option value="Porsche">Cayenne</option>
+                    <option value="Toyota">Hiace</option>
+                    <option value="Vauxhall">Zafira</option>
+                    <option value="Volkswagen">Passat</option>
+                    <option value="Volvo">xc90</option>
+                </select>
+            </div>
+        </div>
+         <div class="two-column-grid__auto">
+            <div>                
+                <select class="homepage-select-options border" name="Price" id="Price">
+                    <option value="">Min price</option>
+                    <option value="Min price">£500</option>
+                    <option value="Min price">£1000</option>
+                    <option value="Min price">£1500</option>
+                    <option value="Min price">£2000</option>
+                    <option value="Min price">£2500</option>
+                    <option value="Min price">£3000</option>
+                    <option value="Min price">£3500</option>
+                </select>
+            </div>
+            <div>
+                <select class="homepage-select-options border"  name="Price" id="Price-select">                    
+                    <option value="">Max price</option>
+                    <option value="BMW">£4000</option>
+                    <option value="Honda">£4500</option>
+                    <option value="Nissan">£5000</option>
+                    <option value="Porsche">£5500</option>
+                    <option value="Toyota">£6000</option>
+                    <option value="Volkswagen">£6500</option>
+                    <option value="Volvo">£7000</option>
+                </select>
+            </div>
+        </div>
+        <div class="two-column-grid__auto">
+            <div>                                
+                <select class="homepage-select-options border" name="Finance" id="finance">
+                <option value="">Finance</option>                
+                </select>
+            </div>
+            <div class="border">                
+                <select class="homepage-select-options" name="cash" id="Select payment method">
+                <option value="Cash">Pay options</option>                
+                <option value="Bank-transfer">Bank Transfer</option>
+                <option value="Debit Card">Debit Card</option>
+                <option value="Credit card">Credit card</option>
+                <option value="Paypal">Paypal</option>        
+                </select>
+            </div>
+        </div>
+            <div class="homepage-submit-button">
+                <button class="search-button border submit-button-radius" type="submit"><a class="homepage-select-options homepage-submit-icon" href="./pages/submit.html">Submit Search</a></button>
+            </div>
+            <div class="homepage-form two-column-grid__auto">
+            <div>
+                <button class="homepage-select-options border reset-button" type="reset">Reset Filters</button>
+            </div>
+            <div class="Home-form-more-options">
+                <h3><a href="">More options</a></h3>                
+            </div>    
+            </div>           
+            </form>
+        </div>      
+    </main>    
+    </aside>
+    <main class="main"></main>
+    <footer class="footer">
+    <div class="grid__auto_flow">
+        <ul class="footer-list">
+            <li><strong><a href="">Hot Wheels Group</a></strong></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">About Hot Wheels Group</a></li>
+            <li><a href="">Selling terms & conditions</a></li>                  
+        </ul>
+        <ul class="footer-list">
+            <li><strong><a href="">Products & services</a></strong></li>
+            <li><a href="">Car valuations</a></li>
+            <li><a href="">Sell my car</a></li>
+            <li><a href="">Vehicle check</a></li>                      
+        </ul>
+        <ul class="footer-list">
+            <li><strong><a href="">Quick search</a></strong></li>
+            <li><a href="">All makes and models</a></li>
+            <li><a href="">All UK locations</a></li>
+            <li><a href="">Find a car dealer</a></li>            
+        </ul>
+    </div>
+    </footer>
+</div>
+</body>
+</html>
