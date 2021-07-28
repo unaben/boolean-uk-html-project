@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;    
+    font-family: sans-serif;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;    
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main{
+    height: 850px;
+}
+
+.logo-container{
+    padding-left: 20px;
+}
+
+nav{
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a,
+.icons a,
+.discription-box li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{       
+    text-decoration: underline coral;
+}
+
+.icons:hover{
+    text-decoration: underline coral;
+}
+
+.center {    
+    height: 750px;
+    width: 500px;    
+    box-shadow: 1px 1px 1px 1px grey;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px gray;
+    background-color: wheat;
+  }
+
+  .reset-button{
+    height: 40px;
+    width: 160px;
+}
+
+.homepage-form input{
+    height: 40px;
+    width: 160px;
+    padding-left: 5px;
+    color: black;
+}
+
+.Search-items{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    height: 430px;
+    width: fit-content;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    background-color: wheat;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.homepage-form{
+    height: 40px;
+    width: 450px;
+    padding-left: 5px;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+    border: 0px;
+}
+
+.reset-button{    
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: large;
+    border: 0px;
+    display: grid;
+    align-self: flex-end;   
+    color:white;
+    padding-top: 10px;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.select-button{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+    overflow: hidden;
+    text-decoration: none;
+    border: 0px;
+    background-color: blue;
+}
+
+.homepage-select-options {    
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+footer button{
+    text-decoration: none;
+    color: black;
+    height: 40px;   
+    width: 200px; 
+    background-color: blue;
+    border-radius: 20px;
+} 
+
+.search-content-border{
+    margin: 10px;    
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px grey;
+    padding: 15px;
+    background-color: wheat;
+}
+
+.message-section{
+    margin-bottom: 10px;         
+}
+
+
